@@ -1,0 +1,13 @@
+.section_title {
+  font-weight: 700;
+  font-size: 38px;
+}
+
+.section_description {
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  width: 100%;
+  max-width: 670px;
+  margin: 32px auto;
+}

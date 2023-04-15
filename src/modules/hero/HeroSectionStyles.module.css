@@ -1,0 +1,79 @@
+.layout {
+  background: linear-gradient(
+    82.02deg,
+    rgba(253, 192, 183, 0.8) 0.98%,
+    rgba(210, 204, 255, 0.8) 50.91%,
+    rgba(107, 180, 253, 0.8) 100%
+  );
+}
+
+.content_info {
+  width: 100%;
+  max-width: 587px;
+  display: flex;
+  flex-direction: column;
+}
+
+.content_holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0 100px 0;
+}
+
+.title {
+  font-size: 44px;
+  font-weight: 700;
+  padding-bottom: 32px;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.button {
+  background: #00baff;
+  padding: 24px 30px 24px 30px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #ffffff;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  margin-top: 32px;
+  display: block;
+  width: 100%;
+  max-width: 208px;
+  text-align: center;
+}
+
+.button:hover {
+  background: #0082b3;
+}
+
+.image_holder {
+  width: 100%;
+  max-width: 670px;
+}
+
+.image_holder img {
+  width: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+  .content_holder {
+    flex-direction: column;
+    padding: 65px 0 65px 0;
+  }
+  .content_info {
+    align-items: center;
+    justify-content: center;
+  }
+  .title{
+    text-align: center;
+  }
+  .button{
+    margin-bottom: 68px;
+  }
+}

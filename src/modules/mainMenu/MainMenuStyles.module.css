@@ -1,0 +1,44 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  align-items: center;
+}
+
+.logo_holder {
+  width: 100%;
+  max-width: 230px;
+  height: 100%;
+  max-height: 85px;
+}
+
+.logo_holder img {
+  width: 100%;
+  object-fit: contain;
+  height: 100%;
+}
+
+.menu_item {
+  font-size: 20px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.menu_items_holder {
+  display: flex;
+  align-items: center;
+  gap: 56px;
+}
+
+.menu_items_holder a:last-child {
+  background: #646464;
+  color: #ffffff;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  padding: 24px 32px 24px 32px;
+  border-radius: 4px;
+}
+
+.menu_items_holder a:last-child:hover {
+  background: #3e3e3e;
+}
